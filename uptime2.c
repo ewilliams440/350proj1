@@ -5,12 +5,21 @@
 /* ATTENTION: to ensure correct compilation of the base code, 
    stub functions for the system call user space wrapper functions are provided. 
    REMEMBER to disable the stub functions (by commenting the following macro) to 
-   allow your implementation to work properly. */
+   allow your implementation to work properly.*/
 
 #define STUB_FUNCS
 #ifdef STUB_FUNCS
 int uptime2(int i) {return 0;}
 #endif
+
+/*
+int uptime2(int i){
+	acquire(&tickslock);
+	if(i==1) return ticks;
+	else if(i==2) return ticks/100;
+	else if(i==3) return ticks/6000;
+	else return -1;
+}*/
 
 
 /* IMPORTANT INSTRUCTION: the code below should not be changed. 
