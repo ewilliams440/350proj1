@@ -94,3 +94,16 @@ void sys_shutdown(void){
 	outw(0xB004, 0x0|0x2000);
 	outw(0x604, 0x0|0x2000);
 }
+
+int
+sys_exit2(void)
+{
+  int n;
+
+  if(argint(0, &n) < 0)
+    return -1;
+
+  cprintf("%d\n", n);
+  exit();
+  return 0;  
+}
