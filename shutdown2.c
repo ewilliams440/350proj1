@@ -13,12 +13,6 @@
 void shutdown2(char * msg) {}
 #endif*/
 
-void shutdown2(char * msg){
-	printf(1,"%s\n",msg);
-	shutdown();
-}
-
-
 int 
 main(int argc, char * argv[])
 {
