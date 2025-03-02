@@ -1,1 +1,1 @@
-# 350proj1
+# CS350 Project 1
