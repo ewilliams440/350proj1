@@ -9,7 +9,14 @@
 
 #define STUB_FUNCS
 #ifdef STUB_FUNCS
-void mkdir2(char * d1, char* d2) {}
+void mkdir2(char * d1, char* d2) {
+    if (mkdir(d1) < 0) {
+        printf(2, "mkdir2: failed to create directory %s\n", d1);
+    }
+    if (mkdir(d2) < 0) {
+        printf(2, "mkdir2: failed to create directory %s\n", d2);
+    }
+}
 #endif
 
 
