@@ -15,8 +15,7 @@ void shutdown2(char * msg) {}
 
 void shutdown2(char * msg){
 	printf(1,"%s\n",msg);
-	outw(0xB004, 0x0|0x2000);
-	outw(0x604, 0x0|0x2000);
+	shutdown();
 }
 
 

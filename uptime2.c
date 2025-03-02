@@ -12,15 +12,6 @@
 int uptime2(int i) {return 0;}
 #endif
 
-/*
-int uptime2(int i){
-	acquire(&tickslock);
-	if(i==1) return ticks;
-	else if(i==2) return ticks/100;
-	else if(i==3) return ticks/6000;
-	else return -1;
-}*/
-
 
 /* IMPORTANT INSTRUCTION: the code below should not be changed. 
     Failure to follow this instruction will lead to zero point 
