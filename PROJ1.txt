@@ -1,6 +1,9 @@
-All members helped implement shutdown and added our code for our individual syscalls using a GitHub repository.
+All members individually implement shutdown and added our code for our individual syscalls using a GitHub repository.
 
 Individual syscalls:
 Eli Williams - shutdown2
+
 Justin Tunney - exit2
+  The exit2 function gets an integer value that holds the exit status that the user gave. If recieved without error it prints out that status. After it has done that it calls exit() to terminate the exit2 process. 
+
 Fernando Oliveira - mkdir2
