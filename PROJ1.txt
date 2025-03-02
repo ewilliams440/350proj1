@@ -1,0 +1,6 @@
+All members helped implement shutdown and added our code for our individual syscalls using a GitHub repository.
+
+Individual syscalls:
+Eli Williams - shutdown2
+Justin Tunney - exit2
+Fernando Oliveira - mkdir2
