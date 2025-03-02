@@ -32,3 +32,4 @@ SYSCALL(uptime)
 SYSCALL(shutdown)
 
 SYSCALL(exit2)
+SYSCALL(shutdown2)
