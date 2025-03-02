@@ -4,6 +4,6 @@ Individual syscalls:
 Eli Williams - shutdown2
 
 Justin Tunney - exit2
-  The exit2 function gets an integer value that holds the exit status that the user gave. If recieved without error it prints out that status. After it has done that it calls exit() to terminate the exit2 process. 
+  The exit2 function gets an integer value that holds the exit status that the user gave. If recieved without error it prints out that status. After it has done that it calls exit() to terminate the exit2 process. This is defined in the sysproc.c file
 
 Fernando Oliveira - mkdir2
